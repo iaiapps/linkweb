@@ -1,0 +1,88 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  background-color: #e8f2dd;
+}
+
+.avatar{
+  width: 100px;
+}
+
+.boxx{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.262);
+  border-radius: 15px;
+  
+}
+/* css background */
+/* .background {
+  background-image: url("../img/bgedu.svg");
+  position: absolute;
+  height: 325px;
+  width: 100%;
+  z-index: -1;
+} */
+
+.background {
+  background-image: url("../img/bgedu.svg");
+  background-size: cover;
+  z-index: -1;
+}
+/* css static menu */
+.img-soon{
+  width: 50%;
+}
+.img-menu {
+  width: 80px;
+  height: 80px;
+}
+.menu {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.menu:hover {
+  transform: scale(0.96);
+  border-bottom: 4px solid #13653f;
+  border-top: 1px solid #13653f;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/* helper */
+.rounded {
+  border-radius: 10px !important;
+}
+
+/* .hr {
+  display: block;
+  border-radius: 20px;
+  border: 3px solid white !important;
+  width: 83%;
+  margin: 0 auto;
+  margin-top: 20px !important;
+} */
+
+@media (max-width: 600px) {
+
+  .img-soon {
+    width: 80%;
+  }
+  .menu {
+    text-decoration: none;
+    width: 110px;
+    height: 110px;
+  }
+  .img-menu {
+    width: 60px;
+    height: 60px;
+    padding: 10px !important;
+  }
+}
