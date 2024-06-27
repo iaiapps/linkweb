@@ -3,7 +3,11 @@ html, body{
 }
 
 body {
+  min-height: 100%;
   background-color: #e8f2dd;
+  background-image: url("../img/bgedu.svg");
+  background-size: cover;
+  z-index: -1;
 }
 
 .avatar{
@@ -21,17 +25,9 @@ body {
 /* css background */
 /* .background {
   background-image: url("../img/bgedu.svg");
-  position: absolute;
-  height: 325px;
-  width: 100%;
-  z-index: -1;
-} */
-
-.background {
-  background-image: url("../img/bgedu.svg");
   background-size: cover;
   z-index: -1;
-}
+} */
 /* css static menu */
 .img-soon{
   width: 50%;
