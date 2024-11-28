@@ -14,20 +14,7 @@ body {
   width: 100px;
 }
 
-.boxx{
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: rgba(255, 255, 255, 0.262);
-  border-radius: 15px;
-  
-}
-/* css background */
-/* .background {
-  background-image: url("../img/bgedu.svg");
-  background-size: cover;
-  z-index: -1;
-} */
+
 /* css static menu */
 .img-soon{
   width: 50%;
@@ -66,6 +53,16 @@ body {
   opacity: 1;
 }
 
+.lebarbox{
+  width: 500px;
+}
+.kotak{
+  height: 175px;
+  width: 100%;
+}
+.fonts{
+  font-size: 1.3rem;
+}
 
 @media (max-width: 600px) {
   .avatar{
@@ -85,4 +82,12 @@ body {
     height: 60px;
     padding: 10px !important;
   }
+  .kotak{
+    height: 125px;
+    width: 100%;
+  }
+  .fonts{
+    font-size: 1.1rem;
+  }
+  
 }
