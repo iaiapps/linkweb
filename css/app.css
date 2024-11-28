@@ -57,8 +57,9 @@ body {
   width: 500px;
 }
 .kotak{
-  height: 175px;
+  height: 180px;
   width: 100%;
+  padding: 16px;
 }
 .fonts{
   font-size: 1.3rem;
@@ -83,8 +84,9 @@ body {
     padding: 10px !important;
   }
   .kotak{
-    height: 125px;
+    height: 130px;
     width: 100%;
+    padding: 10px;
   }
   .fonts{
     font-size: 1.1rem;
